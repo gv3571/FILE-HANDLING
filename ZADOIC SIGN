@@ -1,0 +1,81 @@
+#include &lt; stdio.h &gt;
+
+int main()
+{
+int m, day;
+
+printf(&quot;Enter your birth month(1-12)\n&quot;);
+scanf(&quot;%d&quot;, &amp;m);
+
+printf(&quot;Enter your birth day\n&quot;);
+scanf(&quot;%d&quot;, &amp;day);
+
+if( (m == 12 &amp;&amp; day &gt;= 22) || (m == 1 &amp;&amp; day &lt;= 19) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Capricorn\n&quot;);
+}
+else if( (m == 1 &amp;&amp; day &gt;= 20) || (m == 2 &amp;&amp; day &lt;= 17) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Aquarius\n&quot;);
+}
+
+else if( (m == 2 &amp;&amp; day &gt;= 18) || (m == 3 &amp;&amp; day &lt;= 19) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Pisces\n&quot;);
+}
+else if( (m == 3 &amp;&amp; day &gt;= 20) || (m == 4 &amp;&amp; day &lt;= 19) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Aries\n&quot;);
+}
+else if( (m == 4 &amp;&amp; day &gt;= 20) || (m == 5 &amp;&amp; day &lt;= 20) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Taurus\n&quot;);
+}
+else if( (m == 5 &amp;&amp; day &gt;= 21) || (m == 6 &amp;&amp; day &lt;= 20) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Gemini\n&quot;);
+}
+else if( (m == 6 &amp;&amp; day &gt;= 21) || (m == 7 &amp;&amp; day &lt;= 22) )
+{
+
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Cancer\n&quot;);
+}
+else if( (m == 7 &amp;&amp; day &gt;= 23) || (m == 8 &amp;&amp; day &lt;= 22) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Leo\n&quot;);
+}
+else if( (m == 8 &amp;&amp; day &gt;= 23) || (m == 9 &amp;&amp; day &lt;= 22) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Virgo\n&quot;);
+}
+else if( (m == 9 &amp;&amp; day &gt;= 23) || (m == 10 &amp;&amp; day &lt;= 22) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Libra\n&quot;);
+}
+else if( (m == 10 &amp;&amp; day &gt;= 23) || (m == 11 &amp;&amp; day &lt;= 21) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Scorpio\n&quot;);
+}
+
+else if( (m == 11 &amp;&amp; day &gt;= 22) || (m == 12 &amp;&amp; day &lt;= 21) )
+{
+printf(&quot;Your Zodiac Sign based on your Birth date is
+Sagittarius\n&quot;);
+}
+else
+{
+printf(&quot;Invalid Birth date entered\n&quot;);
+}
+return 0;
+}
